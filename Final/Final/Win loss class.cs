@@ -13,11 +13,33 @@ namespace Final
         {
             int win;
             int loss;
-            int Scorewins;
-            int Scoreloss;
+            int ScoreWins = 0;
+            int ScoreLoss = 0;
             int round;
+            int PlayerCards = 0;
+            int PcCards = 0;
+            int War;
 
+            if (PcCards < PlayerCards)
+            {
+                ScoreLoss++;
+                Write("You lost the round");
+            }
+            else if (PlayerCards < PcCards)
+            {
 
+                ScoreWins++;
+                WriteLine("You won the round");
+            }   
+            
+            else if (PlayerCards == PcCards)
+            {
+                WriteLine("War has been initiated");
+                War
+            }
+           
+
+            
         }
 
     }
