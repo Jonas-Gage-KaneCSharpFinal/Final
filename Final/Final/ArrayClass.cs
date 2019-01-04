@@ -9,8 +9,8 @@ namespace Final
     class ImagesClass
     {
         
-        int[] pcCards;
-        int[] playersCards;
+        int[] PcCards;
+        int[] PlayersCards;
         
 
     }
