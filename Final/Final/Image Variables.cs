@@ -8,5 +8,10 @@ namespace Final
 {
     class Image_Variables
     {
+
+
+
+
+
     }
 }
